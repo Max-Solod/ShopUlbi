@@ -1,7 +1,7 @@
 require('dotenv').config()
 const express = require('express')
 const sequelize = require('./db')
-const moduls = require('./models/models.js')
+const models = require('./models/models.js')
 
 
 const app = express()
